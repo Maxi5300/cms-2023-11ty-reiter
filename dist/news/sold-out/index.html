@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Sold out </title>
+        <link rel="stylesheet" href="style.css">
+
+       
+    </head>
+    <body>
+        <header>
+            
+            <nav>
+                <p class="title">Marcus G. Miller <span>|</span> <span>Choreographer</span></p>
+                <div class="burger-nav-container">
+                    <div class="burger-menu">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                    </div>
+                    <ul class="nav-links">
+                        <li>
+                            <a href='#'>Workshops</a>
+                        </li>
+                        <li>
+                            <a href='#'>About ME</a>
+                        </li>
+                        <li>
+                            <a href='#'>News</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <h1>I believe you can dance</h1>
+            <a class='button' href='#'>Book Workshop</a>
+        </header>
+         <p>I'm super excited to announce that...</p>
+
+        <footer>
+            <div class="footer-content">
+                <p class="footer-heading">Thank you for your interest in art!</p>
+            <p>&copy; 2002 -  Marcus G. Miller </p>
+            </div>
+            
+            <div class="impressum">
+                <a href='#'>Imprint & Privacy</a>
+            </div>
+            
+        </footer>
+        <script src='js/main.js'></script>
+        <script>
+            
+            document.addEventListener('DOMContentLoaded', function() {
+            const burgerMenu = document.querySelector('.burger-menu');
+            const navLinks = document.querySelector('.nav-links');
+
+             burgerMenu.addEventListener('click', function() {
+            this.classList.toggle('active');
+            navLinks.classList.toggle('active'); 
+    });
+});
+
+
+
+        </script>
+    </body>
+</html>
+

@@ -1,0 +1,119 @@
+---
+layout: primary
+title: Marcus G. Miller | Home
+---
+
+        <main>
+            <section id='workshops'>
+                <p class='upperheading'>FIND YOUR ENTRANCE LEVEL & BOOK A WORKSHOP WITH MARCUS</p>
+                <h2>If you never start you will never know</h2>
+
+                <div class="Nummer">
+                    <p class="Nummern">3</p>
+                <div class="Container-3">
+                    <div class="container-content">
+                        <h3>As pro as you can get</h3>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                        <a class='button' href='#'>Book Workshop</a>
+                    </div>
+                    <img class='icon' src='images/stretch.svg'>
+                    <blockquote class="quote">
+                        <p>Respect your talent!</p>
+                        <img src='images/„.png'>
+                    </blockquote>
+                </div>
+                </div>
+                
+
+                <div class="Nummer">
+                    <span class="Nummern">2</span>
+                <div class="Container-2">
+                    <blockquote class="quote">
+                        <p>Thank yourself for levelling up now!</p>
+                        <img src='images/„.png'>
+                    </blockquote>
+                    <img class='icon' src='images/up.svg'>
+                    <div class="container-content">
+                        <h3>Aspire more</h3>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                        <a class='button' href='#'>Book Workshop</a>
+                    </div>
+                   
+                    
+                </div>
+                </div>
+
+                <div class="Nummer">
+                    <span class="Nummern">1</span>
+                <div class="Container-1">
+                    <img class='icon' src='images/rise.svg'>
+                    <div class="container-content">
+                        <h3>Aspire more</h3>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                        <a class='button' href='#'>Book Workshop</a>
+                    </div>
+                    <blockquote class="quote">
+                        <p>Fall in love with dancing!</p>
+                        <img src='images/„.png'>
+                    </blockquote>
+                    
+                    
+                   
+                    
+                </div>
+                </div>
+
+                
+            </section>
+
+            <section id='about-me'>
+                <div class="about-me-box">
+                    <img src='images/aboutME.png'>
+                    <div class="about-me-content">
+                        <p class='upperheading'>WHY I TEACH</p>
+                         <h2>Hi, I'm Marcus</h2>
+                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </p>
+                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                         <a class='button' href='#'>Learn More</a>
+                    </div>
+                    
+                </div>
+                
+            </section>
+
+            <section id='news'>
+                <p class='upperheading'>Making waves since 2002</p>
+                <h2>In the News</h2>
+                <div class="news-box">
+                    {% assign news = collections.news | reverse %}
+                    {% for n in news limit:3 %}
+                    <article>
+                        <h3><a href='{{ n.url }}'>{{ n.data.title }}</a> – </h3> 
+                        <img src='images/news1.png'>
+                        <p>{{ n.data.excerpt }}</p>
+                        <a class='button' href="{{ n.url }}">Read More</a>
+                    </article>
+                    {% endfor %}
+    
+                    <article>
+                        <h3>"Dance Pool" 2024 sold out!</h3>
+                        <img src='images/news2.png'>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.</p>
+                        
+                        <a class='button' href='#'>Read More</a>
+                    </article>
+    
+                    <article>
+                        <h3>New London Workshop Feb. 2025</h3>
+                        <img src='images/news3.png'>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.</p>
+                        
+                        <a class='button' href='#'>Read More</a>
+                    </article>
+                </div>
+                
+            </section>
+        </main>
+       

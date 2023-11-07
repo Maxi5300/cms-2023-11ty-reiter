@@ -1,0 +1,26 @@
+// TODO: Host fonts locally with https://google-webfonts-helper.herokuapp.com/fonts
+
+@font-face {
+  font-family: "GoogleFontNormal";
+  src: url(dist/fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GoogleFontLight";
+  src: url(dist/fonts/Source_Sans_3/static/SourceSans3-Light.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+$primary-font: "GoogleFontNormal", sans-serif;
+$light-font: "GoogleFontLight", sans-serif;
+
+header {
+  font-family: $primary-font;
+}
+
+body {
+  font-family: $primary-font;
+}

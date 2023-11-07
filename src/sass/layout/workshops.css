@@ -1,0 +1,493 @@
+@font-face {
+  font-family: "GoogleFontNormal";
+  src: url(dist/fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GoogleFontLight";
+  src: url(dist/fonts/Source_Sans_3/static/SourceSans3-Light.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+header {
+  font-family: "GoogleFontNormal", sans-serif;
+}
+
+body {
+  font-family: "GoogleFontNormal", sans-serif;
+}
+
+@media only screen and (max-width: 20000px) {
+  #workshops {
+    width: 100%;
+    margin-bottom: 8.54%;
+  }
+  #workshops .upperheading {
+    padding-top: 3.25%;
+    font-size: 1.15em;
+    padding-left: 5%;
+  }
+  #workshops h2 {
+    font-size: 3.65vw;
+    color: orange;
+    padding-left: 5%;
+    font-weight: 300;
+    padding-top: 0.53%;
+  }
+  #workshops .Container-3 {
+    position: relative;
+    background-color: hsl(207, 8%, 22%);
+    width: 68.6%;
+    min-height: 332px;
+    margin-right: 1%;
+    margin-left: 0;
+    display: flex;
+    margin-top: 4.53%;
+    float: none;
+  }
+  #workshops .Container-3 .icon {
+    background-color: #595959;
+    border-radius: 50%;
+    height: 12.83vw;
+    width: 12.83vw;
+    padding: 2vw;
+    margin-left: 5.2%;
+    margin-top: 4.5%;
+  }
+  #workshops .Container-3 .quote p {
+    color: white;
+    font-size: 2.05vw;
+    width: 13.4vw;
+    margin-top: 20%;
+    margin-left: 20%;
+    line-height: 3vw;
+  }
+  #workshops .Container-3 .quote img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  #workshops .Container-3 .container-content h3 {
+    font-size: 2.05vw;
+    color: orange;
+    padding-left: 10%;
+    padding-top: 10%;
+  }
+  #workshops .Container-3 .container-content p {
+    color: white;
+    padding-left: 10%;
+    padding-top: 2%;
+    width: 29.7vw;
+    font-size: 1.25vw;
+    font-family: "GoogleFontLight", sans-serif;
+    line-height: 2vw;
+    margin-bottom: 10%;
+  }
+  #workshops .Container-3 .container-content .button {
+    color: white;
+    background-color: none;
+    border: solid 1px;
+    height: 3.5vw;
+    padding: 1.2vw;
+    text-align: center;
+    text-decoration: none;
+    border-color: orange;
+    margin-left: 10%;
+    font-size: 1.15vw;
+  }
+  #workshops .Container-2 {
+    position: relative;
+    background-color: hsl(207, 8%, 22%);
+    width: 68.6%;
+    min-height: 332px;
+    margin-right: 12%;
+    margin-left: 0;
+    display: flex;
+    margin-top: 4.53%;
+  }
+  #workshops .Container-2 .icon {
+    background-color: #595959;
+    border-radius: 50%;
+    height: 12.83vw;
+    width: 12.83vw;
+    padding: 2vw;
+    margin-left: 5.2%;
+    margin-top: 4.5%;
+  }
+  #workshops .Container-2 .quote p {
+    color: white;
+    font-size: 2.05vw;
+    width: 13.4vw;
+    margin-top: 90%;
+    margin-left: 20%;
+    line-height: 3vw;
+  }
+  #workshops .Container-2 .quote img {
+    position: absolute;
+    top: 0;
+    left: 10%;
+  }
+  #workshops .Container-2 .container-content h3 {
+    font-size: 2.05vw;
+    color: orange;
+    padding-left: 10%;
+    padding-top: 10%;
+  }
+  #workshops .Container-2 .container-content p {
+    color: white;
+    padding-left: 10%;
+    padding-top: 2%;
+    width: 29.7vw;
+    font-size: 1.25vw;
+    font-family: "GoogleFontLight", sans-serif;
+    line-height: 2vw;
+    margin-bottom: 10%;
+  }
+  #workshops .Container-2 .container-content .button {
+    color: white;
+    background-color: none;
+    border: solid 1px;
+    height: 3.5vw;
+    padding: 1.2vw;
+    text-align: center;
+    text-decoration: none;
+    border-color: orange;
+    margin-left: 10%;
+    font-size: 1.15vw;
+  }
+  #workshops .Container-1 {
+    position: relative;
+    background-color: hsl(207, 8%, 22%);
+    width: 68.6%;
+    min-height: 332px;
+    margin-right: 22%;
+    margin-left: 0;
+    display: flex;
+    margin-top: 4.53%;
+  }
+  #workshops .Container-1 .icon {
+    background-color: #595959;
+    border-radius: 50%;
+    height: 12.83vw;
+    width: 12.83vw;
+    padding: 2vw;
+    margin-left: 5.2%;
+    margin-top: 4.5%;
+  }
+  #workshops .Container-1 .quote p {
+    color: white;
+    font-size: 2.05vw;
+    width: 13.4vw;
+    margin-top: 90%;
+    margin-left: 20%;
+    line-height: 3vw;
+  }
+  #workshops .Container-1 .quote img {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  #workshops .Container-1 .container-content h3 {
+    font-size: 2.05vw;
+    color: orange;
+    padding-left: 10%;
+    padding-top: 10%;
+  }
+  #workshops .Container-1 .container-content p {
+    color: white;
+    padding-left: 10%;
+    padding-top: 2%;
+    width: 29.7vw;
+    font-size: 1.25vw;
+    font-family: "GoogleFontLight", sans-serif;
+    line-height: 2vw;
+    margin-bottom: 10%;
+  }
+  #workshops .Container-1 .container-content .button {
+    color: white;
+    background-color: none;
+    border: solid 1px;
+    height: 3.5vw;
+    padding: 1.2vw;
+    text-align: center;
+    text-decoration: none;
+    border-color: orange;
+    margin-left: 10%;
+    font-size: 1.15vw;
+  }
+  #workshops .Nummern {
+    font-size: 350px;
+    text-align: right;
+    margin-left: auto;
+    color: hsl(207, 8%, 22%);
+    margin-right: 0;
+  }
+  #workshops .Nummern p {
+    margin: 0;
+  }
+  #workshops .Nummer {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #workshops {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  #workshops .Nummer:nth-of-type(1) .Nummern {
+    font-size: 28px;
+    color: #d5874c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d5d5d5;
+    margin-left: 54%;
+  }
+  #workshops .Nummer:nth-of-type(2) .Nummern {
+    font-size: 28px;
+    color: #d5874c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d5d5d5;
+    margin-left: 54%;
+  }
+  #workshops .Nummer:nth-of-type(3) .Nummern {
+    font-size: 28px;
+    color: #d5874c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d5d5d5;
+    margin-left: 54%;
+  }
+  #workshops .Nummer {
+    display: flex;
+    flex-direction: column;
+  }
+  #workshops .upperheading {
+    font-size: 22px;
+    padding-left: 15px;
+  }
+  #workshops h2 {
+    font-size: 28px;
+    padding-left: 15px;
+    margin-bottom: 50px;
+  }
+  #workshops .Container-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 346px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 100px;
+  }
+  #workshops .Container-3 .icon {
+    background-color: #595959;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    order: -1;
+    margin: auto 0;
+    padding: 24px;
+    margin-top: -58px;
+    margin-bottom: 20px;
+  }
+  #workshops .Container-3 .quote {
+    margin-left: 0;
+  }
+  #workshops .Container-3 .quote p {
+    color: white;
+    font-size: 22px;
+    margin: auto 0;
+    margin-top: 70px;
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #workshops .Container-3 .quote img {
+    position: absolute;
+    left: 42%;
+    width: 15%;
+    height: 15%;
+    bottom: 15%;
+    margin: auto 0;
+  }
+  #workshops .Container-3 .container-content h3 {
+    font-size: 22px;
+    color: orange;
+    padding-left: 5%;
+    padding-top: 10px;
+  }
+  #workshops .Container-3 .container-content p {
+    color: white;
+    padding-left: 5%;
+    width: 90%;
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: "GoogleFontLight", sans-serif;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  #workshops .Container-3 .container-content .button {
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px;
+    margin-left: 5%;
+    width: 200px;
+    height: 41px;
+    margin-bottom: 50px;
+  }
+  #workshops .Container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 346px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 100px;
+  }
+  #workshops .Container-2 .icon {
+    background-color: #595959;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    order: -1;
+    margin: auto 0;
+    padding: 24px;
+    margin-top: -58px;
+    margin-bottom: 20px;
+  }
+  #workshops .Container-2 .quote {
+    order: 3;
+  }
+  #workshops .Container-2 .quote p {
+    color: white;
+    font-size: 22px;
+    margin: auto 0;
+    margin-top: 70px;
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #workshops .Container-2 .quote img {
+    position: absolute;
+    left: 42%;
+    width: 15%;
+    height: 15%;
+    bottom: 0%;
+    top: 55%;
+    margin: auto 0;
+  }
+  #workshops .Container-2 .container-content {
+    order: 1;
+  }
+  #workshops .Container-2 .container-content h3 {
+    font-size: 22px;
+    color: orange;
+    padding-left: 5%;
+    padding-top: 10px;
+  }
+  #workshops .Container-2 .container-content p {
+    color: white;
+    padding-left: 5%;
+    width: 90%;
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: "GoogleFontLight", sans-serif;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  #workshops .Container-2 .container-content .button {
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px;
+    margin-left: 5%;
+    width: 200px;
+    height: 41px;
+    margin-bottom: 50px;
+  }
+  #workshops .Container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 346px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 100px;
+  }
+  #workshops .Container-1 .icon {
+    background-color: #595959;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    order: -1;
+    margin: auto 0;
+    padding: 24px;
+    margin-top: -58px;
+    margin-bottom: 20px;
+  }
+  #workshops .Container-1 .quote {
+    order: 1;
+  }
+  #workshops .Container-1 .quote p {
+    color: white;
+    font-size: 22px;
+    margin: auto 0;
+    margin-top: 70px;
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #workshops .Container-1 .quote img {
+    position: absolute;
+    left: 42%;
+    width: 15%;
+    height: 15%;
+    bottom: 0%;
+    top: 55%;
+    margin: auto 0;
+  }
+  #workshops .Container-1 .container-content {
+    order: 1;
+  }
+  #workshops .Container-1 .container-content h3 {
+    font-size: 22px;
+    color: orange;
+    padding-left: 5%;
+    padding-top: 10px;
+  }
+  #workshops .Container-1 .container-content p {
+    color: white;
+    padding-left: 5%;
+    width: 90%;
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: "GoogleFontLight", sans-serif;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  #workshops .Container-1 .container-content .button {
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px;
+    margin-left: 5%;
+    width: 200px;
+    height: 41px;
+    margin-bottom: 50px;
+  }
+}/*# sourceMappingURL=workshops.css.map */

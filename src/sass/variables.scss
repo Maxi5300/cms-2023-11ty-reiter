@@ -1,0 +1,28 @@
+// MAX-WIDTH CONTAINER SIZE
+$max-width: 1920px;
+
+$mobile: 800px;
+$desktop: 20000px;
+
+// Mixin für Medienabfragen
+@mixin breakpoint($point) {
+  $breakpoint: $point;
+  @media only screen and (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+// BREAKPOINTS
+
+// COLORS
+$bggray: hsl(207, 8%, 22%);
+$primary: orange;
+$bglightgrey: #595959;
+
+$padding-top-nav: 2.6%;
+$section-padding-top: 8.54%;
+
+$fontsize-p: 22px;
+$fontsize-h: 68px;
+$fontsize-hs: 38px;
+$fontsize-ps: 16px;

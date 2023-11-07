@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "GoogleFontNormal";
+  src: url(dist/fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GoogleFontLight";
+  src: url(dist/fonts/Source_Sans_3/static/SourceSans3-Light.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+header {
+  font-family: "GoogleFontNormal", sans-serif;
+}
+
+body {
+  font-family: "GoogleFontNormal", sans-serif;
+}
+
+@media only screen and (max-width: 20000px) {
+  #about-me {
+    width: 100%;
+    min-height: 1057px;
+    background-color: #fff7f2;
+    padding-top: 8.54%;
+    padding-bottom: 8.54%;
+  }
+  #about-me img {
+    width: 47%;
+    height: 739px;
+    margin-left: 5%;
+  }
+  #about-me .upperheading {
+    margin-bottom: 0;
+    font-size: 22px;
+    padding-left: 5%;
+  }
+  #about-me h2 {
+    font-size: 68px;
+    color: orange;
+    padding-left: 5%;
+    font-weight: 300;
+    padding-top: 10px;
+  }
+  #about-me p {
+    color: #595959;
+    padding-left: 5%;
+    padding-top: 20px;
+    width: 90%;
+    font-size: 22px;
+    font-family: "GoogleFontNormal", sans-serif;
+    line-height: 35px;
+    margin-bottom: 40px;
+  }
+  #about-me .button {
+    color: black;
+    background-color: none;
+    border: solid 1px;
+    height: 63px;
+    padding: 20px;
+    width: 13%;
+    text-align: center;
+    text-decoration: none;
+    border-color: orange;
+    margin-left: 5%;
+    font-size: 22px;
+  }
+}
+#about-me .about-me-box {
+  display: flex;
+}
+@media only screen and (max-width: 800px) {
+  #about-me {
+    width: 100%;
+    min-height: 965px;
+  }
+  #about-me img {
+    width: 100%;
+    height: 458px;
+    margin-left: 0;
+  }
+  #about-me .upperheading {
+    font-size: 16px;
+  }
+  #about-me h2 {
+    font-size: 28px;
+    color: orange;
+    font-weight: 300;
+    padding-top: 10px;
+  }
+  #about-me p {
+    color: #595959;
+    padding-top: 20px;
+    width: 90%;
+    font-size: 16px;
+    font-family: "GoogleFontNormal", sans-serif;
+    line-height: 30px;
+  }
+  #about-me .button {
+    font-size: 16px;
+  }
+  #about-me .about-me-box {
+    display: block;
+  }
+}/*# sourceMappingURL=aboutme.css.map */

@@ -1,0 +1,77 @@
+@import "variables";
+@import "fonts";
+
+@include breakpoint($mobile) {
+  .burger-menu {
+    position: relative;
+    z-index: 2;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column; // Setzt die Richtung der Linien auf vertikal.
+    justify-content: space-around; // Ändert den Abstand zwischen den Linien.
+    align-items: center; // Zentriert die Linien horizontal.
+    cursor: pointer;
+    margin-left: auto;
+
+    .line {
+      height: 2px;
+      width: 100%;
+      background-color: $primary;
+      transition: all 0.3s ease;
+    }
+
+    .line-1 {
+      width: 100%;
+    }
+
+    .line-2 {
+      width: 70%;
+      margin-left: 30%;
+    }
+
+    &.active {
+      .line-1 {
+        transform: translateY(6px) rotate(45deg); // Positioniert und dreht die erste Linie.
+      }
+
+      .line-2 {
+        transform: translateY(-6px) rotate(-45deg); // Positioniert und dreht die zweite Linie.
+        width: 100%;
+        margin-left: 0;
+      }
+
+      + .nav-links {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 38%;
+        height: 500px;
+        background-color: #363636; // Hintergrundfarbe auf Grau setzen.
+
+        display: flex;
+        flex-direction: column; // Setzen Sie die Links vertikal untereinander.
+        overflow: hidden;
+        transition: width 0.3s ease;
+
+        li {
+          margin-top: 70px;
+          margin-right: 4%;
+          text-align: right;
+
+          a {
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  .nav-links {
+    width: 0; // Setzt die Breite des Menüs auf 0, wenn der Burger-Button nicht aktiviert ist.
+    overflow: hidden; // Verbirgt den Inhalt, wenn er nicht sichtbar ist.
+    transition: width 0.3s ease;
+    display: none; // Standardmäßig ausgeblendet, um Platz zu sparen.
+  }
+}

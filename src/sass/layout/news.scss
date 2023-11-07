@@ -1,0 +1,112 @@
+@import "../variables";
+@import "../fonts";
+
+#news {
+  .news-box {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  @include breakpoint($desktop) {
+    width: 100%;
+    .upperheading {
+      padding-top: $section-padding-top;
+      font-size: $fontsize-p;
+      padding-left: 5%;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: $fontsize-h;
+      color: $primary;
+      padding-left: 5%;
+      font-weight: 300;
+    }
+
+    h3 {
+      font-size: $fontsize-hs;
+      color: $primary;
+      font-family: $light-font;
+      text-align: center;
+      padding: 20px;
+    }
+
+    article {
+      background-color: #f7f7f7;
+      margin-left: 5%;
+      width: 90%;
+      min-height: 747px;
+    }
+
+    p {
+      color: $bglightgrey;
+      padding-left: 10%;
+      padding-top: 20px;
+      width: 90%;
+      font-size: $fontsize-p;
+      font-family: $primary-font;
+      line-height: 35px;
+      margin-bottom: 40px;
+    }
+
+    .button {
+      color: black;
+      background-color: none;
+      border: solid 1px;
+      height: 63px;
+      padding: 20px;
+      width: 13%;
+      text-align: center;
+      text-decoration: none;
+      border-color: $primary;
+      margin-left: 10%;
+      font-size: $fontsize-p;
+    }
+  }
+
+  @include breakpoint($mobile) {
+    width: 100%;
+    .upperheading {
+      padding-top: 40px;
+      font-size: $fontsize-ps;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: $fontsize-hs;
+      color: $primary;
+      font-weight: 300;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: $fontsize-ps;
+    }
+
+    article {
+      background-color: #f7f7f7;
+      width: 100%;
+      min-height: 591px;
+      padding-bottom: $section-padding-top;
+    }
+
+    h3 {
+      font-size: $fontsize-p;
+    }
+
+    .button {
+      color: black;
+      background-color: none;
+      border: solid 1px;
+      height: 63px;
+      padding: 20px;
+      width: 13%;
+      text-align: center;
+      text-decoration: none;
+      border-color: $primary;
+      margin-left: 10%;
+      font-size: $fontsize-ps;
+    }
+  }
+}
